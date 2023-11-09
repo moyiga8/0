@@ -7,12 +7,12 @@ external-controller: 127.0.0.1:9090
 proxies:
   - name: http内网8080
     type: http
-    server: 192.168.0.108
-    port: "8080"
+    server: 10.0.0.109
+    port: "7890"
   - name: socks5内网1080
     type: socks5
-    server: 192.168.0.108
-    port: "1080"
+    server: 10.0.0.109
+    port: "7890"
 proxy-groups:
   - name: 🚀 节点选择
     type: select
